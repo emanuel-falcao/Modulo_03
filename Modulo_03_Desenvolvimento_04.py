@@ -24,7 +24,8 @@ def Calculadora(num1,num2, op):
         return res
     if (op == 4):
         if (num2 == 0):
-            print ("Não é possível dividir por 0")
+            res ="Não é possível dividir por 0"
+            return res
         else:
             res = num1 / num2
             return res
